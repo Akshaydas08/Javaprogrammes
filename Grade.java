@@ -22,11 +22,11 @@ public class Grade {
 			System.out.println( "Your grade is A" );
 			
 		}
-		else if ( grade >= 70 && grade < 80 ) {
+		// else if ( grade >= 70 && grade < 80 ) {
 			
-			System.out.println( "Your grade is B+" );
+		// 	System.out.println( "Your grade is B+" );
 			
-		}
+		// }
 		else if ( grade >= 60 && grade < 70 ) {
 			
 			System.out.println( "Your grade is B" );
