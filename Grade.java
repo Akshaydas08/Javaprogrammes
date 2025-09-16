@@ -17,11 +17,7 @@ public class Grade {
 			System.out.println( "Your grade is A+" );
 			
 		}
-		else if ( grade >= 80 && grade < 90 ) {
-			
-			System.out.println( "Your grade is A" );
-			
-		}
+		
 		// else if ( grade >= 70 && grade < 80 ) {
 			
 		// 	System.out.println( "Your grade is B+" );
