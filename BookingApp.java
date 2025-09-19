@@ -61,18 +61,16 @@ public class BookingApp {
 		System.out.println( "Enter distance of your travel :" );
 		int distance = userInput.nextInt();
 		
-		autoRide auto1 = new autoRide();
-		carRide car1 = new carRide();
-		
-		
 		switch( userChoice ) {
 		
-		case 1 : auto1.rideType();
+		case 1 : autoRide auto1 = new autoRide();
+			     auto1.rideType();
 		         int autoFare = auto1.calculateFare( distance );
 		         System.out.println( "Total fare of the ride is : " + autoFare );
 		         break;
 		         
-		case 2 : car1.rideType();
+		case 2 : carRide car1 = new carRide();
+			     car1.rideType();
 		         car1.calculateFare( distance );
 		         int carFare = car1.calculateFare( distance );
 		         System.out.println( "Total fare of the ride is : " + carFare );
